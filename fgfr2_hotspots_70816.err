@@ -1,0 +1,651 @@
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/ ...
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/cuequivariance_ops_torch/triangle_attention.py:199: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
+  warnings.warn(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_000.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_001.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_002.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_003.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_004.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_005.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_006.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_007.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_008.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_009.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_010.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_011.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_012.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_013.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_014.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_015.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_016.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_017.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_018.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_019.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_020.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_021.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_022.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_023.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_024.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_025.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_026.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_027.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_028.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_029.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_030.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_031.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_032.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_033.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_034.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_035.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_036.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_037.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_038.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_039.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_040.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_041.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_042.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_043.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_044.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_045.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_046.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_047.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_048.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_049.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_050.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_051.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_052.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_053.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_054.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_055.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_056.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_057.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_058.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_059.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_060.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_061.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_062.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_063.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_064.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_065.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_066.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_067.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_068.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_069.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_070.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_071.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_072.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_073.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_074.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_075.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_076.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_077.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_078.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_079.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_080.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_081.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_082.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_083.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_084.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_085.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_086.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_087.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_088.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_089.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_090.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_091.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_092.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_093.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_094.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_095.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_096.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_097.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_098.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_099.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_100.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_101.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_102.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_103.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_104.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_105.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_106.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_107.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_108.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_109.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_110.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_111.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_112.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_113.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_114.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_115.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_116.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_117.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_118.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_119.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_120.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_121.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_122.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_123.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_124.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_125.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_126.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_127.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_128.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_129.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_130.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_131.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_132.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_133.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_134.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_135.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_136.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_137.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_138.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_139.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_140.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_141.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_142.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_143.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_144.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_145.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_146.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_147.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_148.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_149.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_150.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_151.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_152.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_153.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_154.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_155.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_156.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_157.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_158.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_159.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_160.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_161.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_162.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_163.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_164.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_165.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_166.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_167.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_168.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_169.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_170.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_171.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_172.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_173.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_174.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_175.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_176.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_177.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_178.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_179.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_180.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_181.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_182.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_183.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_184.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_185.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_186.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_187.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_188.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_189.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_190.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_191.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_192.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_193.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_194.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_195.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_196.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_197.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_198.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_199.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_200.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_201.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_202.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_203.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_204.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_205.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_206.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_207.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_208.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_209.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_210.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_211.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_212.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_213.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_214.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_215.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_216.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_217.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_218.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_219.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_220.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_221.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_222.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_223.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_224.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_225.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_226.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_227.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_228.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_229.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_230.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_231.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_232.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_233.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_234.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_235.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_236.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_237.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_238.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_239.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_240.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_241.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_242.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_243.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_244.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_245.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_246.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_247.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_248.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_249.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_250.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_251.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_252.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_253.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_254.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_255.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_256.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_257.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_258.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_259.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_260.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_261.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_262.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_263.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_264.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_265.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_266.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_267.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_268.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_269.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_270.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_271.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_272.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_273.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_274.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_275.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_276.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_277.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_278.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_279.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_280.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_281.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_282.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_283.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_284.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_285.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_286.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_287.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_288.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_289.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_290.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_291.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_292.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_293.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_294.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_295.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_296.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_297.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_298.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:377: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs/custom_hotspots_70816_design_spec_299.cif' mode='w' encoding='UTF-8'>
+  open(gen_path, "w").write(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/tempfile.py:941: ResourceWarning: Implicitly cleaning up <TemporaryDirectory '/tmp/tmphudshdig'>
+  _warnings.warn(warn_message, ResourceWarning)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/ ...
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/ ...
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/cuequivariance_ops_torch/triangle_attention.py:199: UserWarning: Non-SM100f kernel expects bias to be float32 so it's going to be cast to torch.float32. Check if you can change your code for maximum performance.
+  warnings.warn(
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_000.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_001.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_002.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_003.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_004.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_005.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_006.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_007.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_008.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_009.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_010.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_011.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_012.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_013.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_014.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_015.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_016.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_017.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_018.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_019.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/writer.py:92: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/students/q.abbas/Protein_design_hack/Boltz_gen_out_5_hotspots/intermediate_designs_inverse_folded/refold_cif/custom_hotspots_70816_design_spec_020.cif' mode='w' encoding='UTF-8'>
+  open(self.refold_cif_dir / f"{batch['id'][0]}.cif", "w").write(cif_text)

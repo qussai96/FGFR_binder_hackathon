@@ -1,0 +1,17 @@
+entities:
+- file:
+    path: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/FGFR2_1DJS_chainA_clean.pdb
+    include:
+    - chain:
+        id: A
+    not_design:
+    - chain:
+        id: A
+    binding_types:
+    - chain:
+        id: A
+        binding: 23,26,101,131,133,138,186
+- protein:
+    id: X
+    sequence: 30..55
+    msa: empty

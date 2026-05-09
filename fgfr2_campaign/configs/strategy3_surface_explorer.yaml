@@ -1,0 +1,25 @@
+campaign: fgfr2
+strategy_name: strategy3_surface_explorer
+purpose: Model-free surface binder exploration on FGFR2 extracellular region.
+target:
+  pdb_id: 1DJS
+  structure_path: fgfr2_campaign/structures/fgfr2_target_clean.pdb
+  receptor_chain: A
+off_target:
+  pdb_id: 1CVS
+  structure_path: fgfr2_campaign/structures/1CVS_offtarget_fgfr1.pdb
+  receptor_chain: C
+binder:
+  min_length: 30
+  max_length: 50
+mode:
+  hotspot_constrained: false
+  broad_surface_sampling: true
+specificity:
+  prefer_nonconserved_residues: true
+  avoid_conserved_fgfr1_positions: true
+warnings:
+  - No explicit hotspot constraints by default.
+  - Computational binder candidates only; not validated inhibitors.
+notes:
+  generated_at_utc: 2026-05-09T15:54:02.437401+00:00

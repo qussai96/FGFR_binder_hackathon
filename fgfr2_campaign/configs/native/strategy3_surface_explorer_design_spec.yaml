@@ -1,0 +1,13 @@
+entities:
+- file:
+    path: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/structures/fgfr2_target_clean.pdb
+    include:
+    - chain:
+        id: A
+    not_design:
+    - chain:
+        id: A
+- protein:
+    id: X
+    sequence: 30..50
+    msa: empty

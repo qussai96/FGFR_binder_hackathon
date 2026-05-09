@@ -1,0 +1,34 @@
+{
+  "design_id": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_027112282d",
+  "tool": "boltzgen",
+  "strategy": "strategy1_ligand_site_blocker",
+  "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/rank2_strategy1_ligand_site_blocker_design_spec_1.cif",
+  "metrics": {
+    "ipTM": null,
+    "pTM": null,
+    "pLDDT": null,
+    "min_interaction_pae": null,
+    "rmsd": null,
+    "clash_flag": null,
+    "off_target_ipTM": null,
+    "binder_length": 46,
+    "binder_sequence": null,
+    "passes_binder_length_filter": true
+  },
+  "score_components": {
+    "normalized_ipTM": null,
+    "normalized_pTM": null,
+    "normalized_inverse_min_interaction_pae": null,
+    "normalized_inverse_rmsd": null,
+    "no_clash_bonus": null,
+    "diversity_bonus": 0.0
+  },
+  "composite_score": null,
+  "specificity_adjusted_score": null,
+  "warnings": [
+    "Computational binder candidate only. No experimental efficacy claim.",
+    "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+  ],
+  "evaluation": null,
+  "updated_at": "2026-05-09T16:20:01.169902+00:00"
+}

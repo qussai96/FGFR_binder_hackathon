@@ -1,0 +1,36 @@
+{
+  "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_669da459c5",
+  "tool": "boltzgen",
+  "strategy": "strategy1_ligand_site_blocker",
+  "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/strategy1_ligand_site_blocker_design_spec_3.cif",
+  "metrics": {
+    "ipTM": 0.55428,
+    "pTM": 0.63418,
+    "pLDDT": null,
+    "min_interaction_pae": 18.44688,
+    "rmsd": null,
+    "clash_flag": null,
+    "off_target_ipTM": null,
+    "binder_length": 47,
+    "binder_sequence": null,
+    "passes_binder_length_filter": true,
+    "specificity_gap": null
+  },
+  "score_components": {
+    "normalized_ipTM": 1.0,
+    "normalized_pTM": 1.0,
+    "normalized_inverse_min_interaction_pae": 0.0,
+    "normalized_inverse_rmsd": null,
+    "no_clash_bonus": null,
+    "diversity_bonus": 0.0
+  },
+  "composite_score": 0.706522,
+  "specificity_adjusted_score": 0.706522,
+  "warnings": [
+    "Computational binder candidate only. No experimental efficacy claim.",
+    "Missing metrics for composite score components: normalized_inverse_rmsd, no_clash_bonus",
+    "Missing FGFR1 off-target metric (off_target_ipTM); specificity risk not quantified."
+  ],
+  "evaluation": null,
+  "updated_at": "2026-05-09T16:20:01.245219+00:00"
+}

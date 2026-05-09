@@ -1,0 +1,1538 @@
+{
+  "campaign": "fgfr2",
+  "generated_at": "2026-05-09T16:20:01.364740+00:00",
+  "num_designs": 42,
+  "designs": [
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_453308a6a1",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": 0.55428,
+        "pTM": 0.63418,
+        "pLDDT": null,
+        "min_interaction_pae": 18.44688,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true,
+        "specificity_gap": null
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Missing metrics for composite score components: normalized_inverse_rmsd, no_clash_bonus",
+        "Missing FGFR1 off-target metric (off_target_ipTM); specificity risk not quantified."
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": 1.0,
+        "normalized_pTM": 1.0,
+        "normalized_inverse_min_interaction_pae": 0.0,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": 0.70751,
+      "specificity_adjusted_score": 0.70751,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_453308a6a1/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_453308a6a1.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_453308a6a1.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_43a0c074f9",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": 0.55428,
+        "pTM": 0.63418,
+        "pLDDT": null,
+        "min_interaction_pae": 18.44688,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true,
+        "specificity_gap": null
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Missing metrics for composite score components: normalized_inverse_rmsd, no_clash_bonus",
+        "Missing FGFR1 off-target metric (off_target_ipTM); specificity risk not quantified."
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": 1.0,
+        "normalized_pTM": 1.0,
+        "normalized_inverse_min_interaction_pae": 0.0,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": 0.70751,
+      "specificity_adjusted_score": 0.70751,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_43a0c074f9/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_43a0c074f9.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_43a0c074f9.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_14c6df141b",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": 0.55428,
+        "pTM": 0.63418,
+        "pLDDT": null,
+        "min_interaction_pae": 18.44688,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true,
+        "specificity_gap": null
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Missing metrics for composite score components: normalized_inverse_rmsd, no_clash_bonus",
+        "Missing FGFR1 off-target metric (off_target_ipTM); specificity risk not quantified."
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": 1.0,
+        "normalized_pTM": 1.0,
+        "normalized_inverse_min_interaction_pae": 0.0,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": 0.706522,
+      "specificity_adjusted_score": 0.706522,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_14c6df141b/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_14c6df141b.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_14c6df141b.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_169ad730eb",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": 0.55428,
+        "pTM": 0.63418,
+        "pLDDT": null,
+        "min_interaction_pae": 18.44688,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true,
+        "specificity_gap": null
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Missing metrics for composite score components: normalized_inverse_rmsd, no_clash_bonus",
+        "Missing FGFR1 off-target metric (off_target_ipTM); specificity risk not quantified."
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": 1.0,
+        "normalized_pTM": 1.0,
+        "normalized_inverse_min_interaction_pae": 0.0,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": 0.706522,
+      "specificity_adjusted_score": 0.706522,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_169ad730eb/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_169ad730eb.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_169ad730eb.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_669da459c5",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": 0.55428,
+        "pTM": 0.63418,
+        "pLDDT": null,
+        "min_interaction_pae": 18.44688,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true,
+        "specificity_gap": null
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Missing metrics for composite score components: normalized_inverse_rmsd, no_clash_bonus",
+        "Missing FGFR1 off-target metric (off_target_ipTM); specificity risk not quantified."
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": 1.0,
+        "normalized_pTM": 1.0,
+        "normalized_inverse_min_interaction_pae": 0.0,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": 0.706522,
+      "specificity_adjusted_score": 0.706522,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_669da459c5/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_669da459c5.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_669da459c5.png"
+    },
+    {
+      "design_id": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_dcfbf2fe11",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/before_refolding/rank1_strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank1_strategy1_ligand_site_blocker_desi_dcfbf2fe11/designed.cif",
+      "structure_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_dcfbf2fe11.cif",
+      "preview_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_dcfbf2fe11.png"
+    },
+    {
+      "design_id": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_8559a86454",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/before_refolding/rank2_strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank2_strategy1_ligand_site_blocker_desi_8559a86454/designed.cif",
+      "structure_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_8559a86454.cif",
+      "preview_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_8559a86454.png"
+    },
+    {
+      "design_id": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_cc0ba8c4dc",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/before_refolding/rank3_strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank3_strategy1_ligand_site_blocker_desi_cc0ba8c4dc/designed.cif",
+      "structure_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_cc0ba8c4dc.cif",
+      "preview_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_cc0ba8c4dc.png"
+    },
+    {
+      "design_id": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_b84d099283",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/before_refolding/rank4_strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank4_strategy1_ligand_site_blocker_desi_b84d099283/designed.cif",
+      "structure_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_b84d099283.cif",
+      "preview_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_b84d099283.png"
+    },
+    {
+      "design_id": "boltzgen_rank5_strategy1_ligand_site_blocker_desi_5e04c99722",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/before_refolding/rank5_strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank5_strategy1_ligand_site_blocker_desi_5e04c99722/designed.cif",
+      "structure_file": "boltzgen_rank5_strategy1_ligand_site_blocker_desi_5e04c99722.cif",
+      "preview_file": "boltzgen_rank5_strategy1_ligand_site_blocker_desi_5e04c99722.png"
+    },
+    {
+      "design_id": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_85dfc536f5",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/rank1_strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank1_strategy1_ligand_site_blocker_desi_85dfc536f5/designed.cif",
+      "structure_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_85dfc536f5.cif",
+      "preview_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_85dfc536f5.png"
+    },
+    {
+      "design_id": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_ee3f9b9e4c",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/rank2_strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank2_strategy1_ligand_site_blocker_desi_ee3f9b9e4c/designed.cif",
+      "structure_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_ee3f9b9e4c.cif",
+      "preview_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_ee3f9b9e4c.png"
+    },
+    {
+      "design_id": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_61e7c8c99a",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/rank3_strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank3_strategy1_ligand_site_blocker_desi_61e7c8c99a/designed.cif",
+      "structure_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_61e7c8c99a.cif",
+      "preview_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_61e7c8c99a.png"
+    },
+    {
+      "design_id": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_4563b35b36",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/rank4_strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank4_strategy1_ligand_site_blocker_desi_4563b35b36/designed.cif",
+      "structure_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_4563b35b36.cif",
+      "preview_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_4563b35b36.png"
+    },
+    {
+      "design_id": "boltzgen_rank5_strategy1_ligand_site_blocker_desi_b682771380",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/final_30_designs/rank5_strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank5_strategy1_ligand_site_blocker_desi_b682771380/designed.cif",
+      "structure_file": "boltzgen_rank5_strategy1_ligand_site_blocker_desi_b682771380.cif",
+      "preview_file": "boltzgen_rank5_strategy1_ligand_site_blocker_desi_b682771380.png"
+    },
+    {
+      "design_id": "boltzgen_rank0_strategy1_ligand_site_blocker_desi_24abf857be",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank0_strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank0_strategy1_ligand_site_blocker_desi_24abf857be/designed.cif",
+      "structure_file": "boltzgen_rank0_strategy1_ligand_site_blocker_desi_24abf857be.cif",
+      "preview_file": "boltzgen_rank0_strategy1_ligand_site_blocker_desi_24abf857be.png"
+    },
+    {
+      "design_id": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_d0178d414f",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank1_strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank1_strategy1_ligand_site_blocker_desi_d0178d414f/designed.cif",
+      "structure_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_d0178d414f.cif",
+      "preview_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_d0178d414f.png"
+    },
+    {
+      "design_id": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_c2388da4e7",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank2_strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank2_strategy1_ligand_site_blocker_desi_c2388da4e7/designed.cif",
+      "structure_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_c2388da4e7.cif",
+      "preview_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_c2388da4e7.png"
+    },
+    {
+      "design_id": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_7f4a774f10",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank3_strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank3_strategy1_ligand_site_blocker_desi_7f4a774f10/designed.cif",
+      "structure_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_7f4a774f10.cif",
+      "preview_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_7f4a774f10.png"
+    },
+    {
+      "design_id": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_22155119e9",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/before_refolding/rank4_strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank4_strategy1_ligand_site_blocker_desi_22155119e9/designed.cif",
+      "structure_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_22155119e9.cif",
+      "preview_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_22155119e9.png"
+    },
+    {
+      "design_id": "boltzgen_rank0_strategy1_ligand_site_blocker_desi_8c2def2e7d",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/rank0_strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank0_strategy1_ligand_site_blocker_desi_8c2def2e7d/designed.cif",
+      "structure_file": "boltzgen_rank0_strategy1_ligand_site_blocker_desi_8c2def2e7d.cif",
+      "preview_file": "boltzgen_rank0_strategy1_ligand_site_blocker_desi_8c2def2e7d.png"
+    },
+    {
+      "design_id": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_a94025e866",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/rank1_strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank1_strategy1_ligand_site_blocker_desi_a94025e866/designed.cif",
+      "structure_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_a94025e866.cif",
+      "preview_file": "boltzgen_rank1_strategy1_ligand_site_blocker_desi_a94025e866.png"
+    },
+    {
+      "design_id": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_027112282d",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/rank2_strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank2_strategy1_ligand_site_blocker_desi_027112282d/designed.cif",
+      "structure_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_027112282d.cif",
+      "preview_file": "boltzgen_rank2_strategy1_ligand_site_blocker_desi_027112282d.png"
+    },
+    {
+      "design_id": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_e3172401e1",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/rank3_strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank3_strategy1_ligand_site_blocker_desi_e3172401e1/designed.cif",
+      "structure_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_e3172401e1.cif",
+      "preview_file": "boltzgen_rank3_strategy1_ligand_site_blocker_desi_e3172401e1.png"
+    },
+    {
+      "design_id": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_180769265b",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/final_ranked_designs/intermediate_ranked_10_designs/rank4_strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_rank4_strategy1_ligand_site_blocker_desi_180769265b/designed.cif",
+      "structure_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_180769265b.cif",
+      "preview_file": "boltzgen_rank4_strategy1_ligand_site_blocker_desi_180769265b.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_754acdb175",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs/strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_754acdb175/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_754acdb175.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_754acdb175.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_f42fa2a9af",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs/strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_f42fa2a9af/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_f42fa2a9af.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_f42fa2a9af.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_d8ce0770d2",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs/strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_d8ce0770d2/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_d8ce0770d2.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_d8ce0770d2.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_d21649feb5",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs/strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_d21649feb5/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_d21649feb5.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_d21649feb5.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_d9958f5e0a",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs/strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_d9958f5e0a/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_d9958f5e0a.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_d9958f5e0a.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_5932051120",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_cif/strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_5932051120/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_5932051120.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_5932051120.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_876d828e7f",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_cif/strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_876d828e7f/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_876d828e7f.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_876d828e7f.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_fcf46cd564",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_cif/strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_fcf46cd564/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_fcf46cd564.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_fcf46cd564.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_1e4fa11286",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_cif/strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_1e4fa11286/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_1e4fa11286.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_1e4fa11286.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_508cac75be",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_cif/strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_508cac75be/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_508cac75be.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_508cac75be.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_fb61f3c9e0",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_design_cif/strategy1_ligand_site_blocker_design_spec_0.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 40,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_fb61f3c9e0/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_fb61f3c9e0.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_fb61f3c9e0.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_95ad8b3836",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_design_cif/strategy1_ligand_site_blocker_design_spec_1.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 46,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_95ad8b3836/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_95ad8b3836.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_95ad8b3836.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_e5d1b39680",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_design_cif/strategy1_ligand_site_blocker_design_spec_2.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 31,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_e5d1b39680/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_e5d1b39680.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_e5d1b39680.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_343f593e2d",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_design_cif/strategy1_ligand_site_blocker_design_spec_3.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 47,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_343f593e2d/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_343f593e2d.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_343f593e2d.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_3564cea979",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/intermediate_designs_inverse_folded/refold_design_cif/strategy1_ligand_site_blocker_design_spec_4.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 30,
+        "binder_sequence": null,
+        "passes_binder_length_filter": true
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Insufficient core metrics for ranking: normalized_ipTM, normalized_pTM, normalized_inverse_min_interaction_pae"
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 0.04545454545454546
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_3564cea979/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_3564cea979.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_3564cea979.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_4700c0c304",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_ligand_site_blocker_round0/strategy1_ligand_site_blocker_design_spec.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 135,
+        "binder_sequence": null,
+        "passes_binder_length_filter": false
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Binder length > 50 aa; redesign or filter before prioritization.",
+        "Binder length exceeds 50 aa filter; excluded from ranking."
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 1.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_4700c0c304/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_4700c0c304.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_4700c0c304.png"
+    },
+    {
+      "design_id": "boltzgen_strategy1_ligand_site_blocker_design_spe_9941b81f37",
+      "tool": "boltzgen",
+      "strategy": "strategy1_ligand_site_blocker",
+      "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/strategy1_ligand_site_blocker_design_spec.cif",
+      "metrics": {
+        "ipTM": null,
+        "pTM": null,
+        "pLDDT": null,
+        "min_interaction_pae": null,
+        "rmsd": null,
+        "clash_flag": null,
+        "off_target_ipTM": null,
+        "binder_length": 135,
+        "binder_sequence": null,
+        "passes_binder_length_filter": false
+      },
+      "warnings": [
+        "Computational binder candidate only. No experimental efficacy claim.",
+        "Binder length > 50 aa; redesign or filter before prioritization.",
+        "Binder length exceeds 50 aa filter; excluded from ranking."
+      ],
+      "notes": [],
+      "score_components": {
+        "normalized_ipTM": null,
+        "normalized_pTM": null,
+        "normalized_inverse_min_interaction_pae": null,
+        "normalized_inverse_rmsd": null,
+        "no_clash_bonus": null,
+        "diversity_bonus": 1.0
+      },
+      "composite_score": null,
+      "specificity_adjusted_score": null,
+      "design_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/designs/boltzgen_strategy1_ligand_site_blocker_design_spe_9941b81f37/designed.cif",
+      "structure_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_9941b81f37.cif",
+      "preview_file": "boltzgen_strategy1_ligand_site_blocker_design_spe_9941b81f37.png"
+    }
+  ],
+  "global_warnings": [
+    "All outputs are computational binder candidates for future experimental validation.",
+    "Binder ranking limit set to <= 50 aa for future prioritization.",
+    "Dashboard ranking currently prioritizes higher target ipSAE (then ipSAE specificity gap) when available.",
+    "Composite scores require core metrics (ipTM, pTM, min_interaction_pae); incomplete designs are not ranked.",
+    "Specificity against FGFR1 should be evaluated before prioritizing candidates."
+  ]
+}

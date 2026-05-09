@@ -1,0 +1,45 @@
+{
+  "file": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/structures/1DJS.pdb",
+  "file_format": "PDB",
+  "chain_ids": [
+    "A",
+    "B"
+  ],
+  "auth_residue_ranges": {
+    "A": {
+      "min": 147,
+      "max": 362
+    },
+    "B": {
+      "min": 6,
+      "max": 140
+    }
+  },
+  "entities": [
+    {
+      "entity_id": "1",
+      "description": "PROTEIN (FIBROBLAST GROWTH FACTOR RECEPTOR 2)",
+      "chains": [
+        "A"
+      ]
+    },
+    {
+      "entity_id": "2",
+      "description": "PROTEIN (FIBROBLAST GROWTH FACTOR 1)",
+      "chains": [
+        "B"
+      ]
+    }
+  ],
+  "non_protein_ligands": [
+    "MSE",
+    "SO4"
+  ],
+  "candidate_fgfr2_receptor_chains": [
+    "A"
+  ],
+  "candidate_fgf1_ligand_chains": [
+    "B"
+  ],
+  "candidate_fgfr1_receptor_chains": []
+}

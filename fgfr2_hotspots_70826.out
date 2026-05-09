@@ -1,0 +1,17 @@
+=== BoltzGen from PDB + hotspots ===
+Job ID: 70826
+Node: gpunode10.binfo.wzw.tum.de
+PDB: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/FGFR2_1DJS_chainA_clean.pdb
+Receptor chain: A
+Hotspots: V317,Y281,D321,N318,E160,R251,D283,N346,L166,I288,P170,H167,N173
+Designs: 3000
+Length range: 30..55
+Output: /home/students/q.abbas/Protein_design_hack/Boltz_gen_out_3000
+Spec: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/configs/native/custom_hotspots_70826_design_spec.yaml
+Start: 2026-05-09T20:40:05+02:00
+GPU 0: NVIDIA A40 (UUID: GPU-3e72dfc3-4498-7baf-93e6-63c316dccbec)
+Wrote native BoltzGen spec: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/configs/native/custom_hotspots_70826_design_spec.yaml
+Hotspots parsed: 13
+Hotspots used on chain A: 5
+Selected auth hotspots: [166, 167, 251, 283, 346]
+Hotspots mapped to positions: 5

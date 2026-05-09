@@ -1,0 +1,482 @@
+{
+  "target": "FGFR2 extracellular ligand-binding domain",
+  "source_structure": "1DJS.pdb",
+  "source_path": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/structures/1DJS.pdb",
+  "receptor_chain_input": "A",
+  "ligand_chain_input": "B",
+  "cutoff_angstrom": 5.0,
+  "num_interface_residues": 47,
+  "warning": null,
+  "interface_residues": [
+    {
+      "receptor_chain_parser": "A",
+      "resname": "GLU",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 160,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.752
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "GLU",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 163,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.893
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "LYS",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 164,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.342
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ARG",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 165,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.512
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "LEU",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 166,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.297
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "HIS",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 167,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.055
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ALA",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 168,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.88
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "VAL",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 169,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 3.938
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "PRO",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 170,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.82
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ALA",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 171,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.89
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ASN",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 173,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.886
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "THR",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 174,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.756
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "VAL",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 175,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.856
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "LYS",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 226,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.336
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "HIS",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 245,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.802
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "LEU",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 246,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.947
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ASP",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 247,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.991
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "VAL",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 248,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.565
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "VAL",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 249,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.852
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "GLU",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 250,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.685
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ARG",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 251,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.886
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "SER",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 252,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.93
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "PRO",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 253,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.56
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "CYS",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 278,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.506
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "LYS",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 279,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.888
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "VAL",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 280,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.887
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "TYR",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 281,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.792
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "SER",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 282,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.64
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ASP",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 283,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.595
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ALA",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 284,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.886
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "GLN",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 285,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 3.94
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "PRO",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 286,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.792
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "HIS",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 287,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.694
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ILE",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 288,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.763
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ALA",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 314,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.776
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ALA",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 315,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.806
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "GLY",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 316,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.17
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "VAL",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 317,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.808
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ASN",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 318,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.787
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "THR",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 319,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.654
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "THR",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 320,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.463
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ASP",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 321,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.999
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "GLU",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 325,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.71
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "GLY",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 345,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.725
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ASN",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 346,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.749
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "SER",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 347,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.266
+    },
+    {
+      "receptor_chain_parser": "A",
+      "resname": "ILE",
+      "insertion_code": null,
+      "auth_asym_id": "A",
+      "auth_seq_id": 348,
+      "label_asym_id": null,
+      "label_seq_id": null,
+      "min_heavy_atom_distance": 4.351
+    }
+  ]
+}

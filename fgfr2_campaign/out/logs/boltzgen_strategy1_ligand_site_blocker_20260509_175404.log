@@ -1,0 +1,123 @@
+[INFO] Starting BoltzGen local run at 2026-05-09T17:54:06+02:00
+/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python /home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/ ...
+Traceback (most recent call last):
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/resources/main.py", line 53, in <module>
+    main(config, args)
+    ~~~~^^^^^^^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/resources/main.py", line 47, in main
+    task.run(config)
+    ~~~~~~~~^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/task/predict/predict.py", line 191, in run
+    self.lightning_trainer.predict(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.model_module, datamodule=self.data, return_predictions=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/pytorch_lightning/trainer/trainer.py", line 941, in predict
+    return call._call_and_handle_interrupt(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<6 lines>...
+        weights_only,
+        ^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/pytorch_lightning/trainer/call.py", line 49, in _call_and_handle_interrupt
+    return trainer_fn(*args, **kwargs)
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/pytorch_lightning/trainer/trainer.py", line 990, in _predict_impl
+    results = self._run(model, ckpt_path=ckpt_path, weights_only=weights_only)
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/pytorch_lightning/trainer/trainer.py", line 1053, in _run
+    self.strategy.setup(self)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/pytorch_lightning/strategies/strategy.py", line 155, in setup
+    self.model_to_device()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/pytorch_lightning/strategies/single_device.py", line 79, in model_to_device
+    self.model.to(self.root_device)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/lightning_fabric/utilities/device_dtype_mixin.py", line 59, in to
+    return super().to(*args, **kwargs)
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1340, in to
+    return self._apply(convert)
+           ~~~~~~~~~~~^^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/torch/nn/modules/module.py", line 900, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/torch/nn/modules/module.py", line 900, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/torch/nn/modules/module.py", line 900, in _apply
+    module._apply(fn)
+    ~~~~~~~~~~~~~^^^^
+  [Previous line repeated 4 more times]
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/torch/nn/modules/module.py", line 927, in _apply
+    param_applied = fn(param)
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/torch/nn/modules/module.py", line 1326, in convert
+    return t.to(
+           ~~~~^
+        device,
+        ^^^^^^^
+        dtype if t.is_floating_point() or t.is_complex() else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        non_blocking,
+        ^^^^^^^^^^^^^
+    )
+    ^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 1.95 GiB of which 25.62 MiB is free. Including non-PyTorch memory, this process has 1.79 GiB memory in use. Of the allocated memory 1.62 GiB is allocated by PyTorch, and 148.52 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/bin/boltzgen", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 1737, in main
+    run_command(args)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 576, in run_command
+    execute_command(args)
+    ~~~~~~~~~~~~~~~^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 817, in execute_command
+    subprocess.check_call(command)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/subprocess.py", line 419, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/home/students/q.abbas/anaconda3/envs/FGFR_hack/bin/python', '/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/resources/main.py', '/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/config/design.yaml']' returned non-zero exit status 1.
+
+ERROR conda.cli.main_run:execute(47): `conda run boltzgen run /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/strategy1_ligand_site_blocker_design_spec.yaml --num_designs 5 --output /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0` failed. (See above for error)
+
+=== Configuring pipeline ===
+Using dataset artifact: /home/students/q.abbas/.cache/huggingface/hub/datasets--boltzgen--inference-data/snapshots/c3d36fd276e9caf098c75d4113c6d5eb320b1a4c/mols.zip
+************** Checking design spec: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/strategy1_ligand_site_blocker_design_spec.yaml **************
+Found explicit empty MSA for some proteins, will run these in single sequence mode.
+Total designed residues: 42
+There are 10 unresolved residues and 70 unresolved atoms in the target.
+Design specification visualization is written to /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/strategy1_ligand_site_blocker_design_spec.cif
+****************************************************************************************************************************************************************************************************************
+Using kernels: False [device capability: (6, 1)]
+Config overrides for protocol protein-anything: {}
+Using 1 devices
+Raw designs will be saved to: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/intermediate_designs
+Using diffusion batch size: 1
+Number of diffusion batches: 5
+Using model artifact: /home/students/q.abbas/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltzgen1_diverse.ckpt
+Using model artifact: /home/students/q.abbas/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltzgen1_adherence.ckpt
+Inverse-folded designs will be saved to: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/intermediate_designs_inverse_folded
+Using model artifact: /home/students/q.abbas/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltzgen1_ifold.ckpt
+Using model artifact: /home/students/q.abbas/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltz2_conf_final.ckpt
+Using model artifact: /home/students/q.abbas/.cache/huggingface/hub/models--boltzgen--boltzgen-1/snapshots/c1be29e1f82ffcc72264f64b993c43fb4e0d17f0/boltz2_conf_final.ckpt
+Final ranked designs will be saved to: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/final_ranked_designs
+[1] design                   
+[2] inverse_folding          
+[3] folding                  
+[4] design_folding           
+[5] analysis                 
+[6] filtering                
+Configuration complete. Configs written to /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/config
+Steps manifest written to /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/steps.yaml
+
+=== Executing pipeline ===
+**************************************************
+Pipeline step 1 of 6: design
+Running command: /home/students/q.abbas/anaconda3/envs/FGFR_hack/bin/python /home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/resources/main.py /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/out/boltzgen/strategy1_round0/config/design.yaml
+

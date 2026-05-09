@@ -1,0 +1,8 @@
+{
+  "strategy3_surface_explorer": {
+    "dialect": 2,
+    "input": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/structures/fgfr2_target_clean.pdb",
+    "contig": "30-50,/0,A147-161,A163-185,A187-188,A190-217,A219-296,A307-362",
+    "is_non_loopy": true
+  }
+}

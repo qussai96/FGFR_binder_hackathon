@@ -1,0 +1,31 @@
+[INFO] Starting BoltzGen local run at 2026-05-09T17:50:08+02:00
+
+=== Configuring pipeline ===
+Using dataset artifact: /home/students/q.abbas/.cache/huggingface/hub/datasets--boltzgen--inference-data/snapshots/c3d36fd276e9caf098c75d4113c6d5eb320b1a4c/mols.zip
+************** Checking design spec: /home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/configs/strategy1_ligand_site_blocker.yaml **************
+Traceback (most recent call last):
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/bin/boltzgen", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 1737, in main
+    run_command(args)
+    ~~~~~~~~~~~^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 573, in run_command
+    configure_command(args)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 645, in configure_command
+    check_design_specs(args, moldir, mols)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 1252, in check_design_specs
+    check_design_spec(args, moldir, design_spec, mols)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/cli/boltzgen.py", line 1287, in check_design_spec
+    parsed = parser.parse_yaml(design_spec, mols, moldir)
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/data/parse/schema.py", line 1302, in parse_yaml
+    target = self.parse_boltzgen_schema(
+        name, data, mols, mol_dir, base_file_path=path.parent
+    )
+  File "/home/students/q.abbas/anaconda3/envs/FGFR_hack/lib/python3.13/site-packages/boltzgen/data/parse/schema.py", line 1354, in parse_boltzgen_schema
+    raise ValueError(msg)
+ValueError: Found invalid keys in yaml file: {'campaign', 'specificity_conserved_hotspots_to_avoid', 'off_target', 'binder', 'generated_at_utc', 'specificity_preferred_hotspots', 'target', 'purpose', 'pdb_id', 'receptor_chain', 'min_length', 'max_length', 'labels', 'ligand_reference_chain', 'warnings', 'scoring_focus', 'notes', 'strategy_name', 'hotspot_source_json', 'hotspots', 'structure_path'}.
+Valid keys are: ['entities', 'protein', 'dna', 'rna', 'id', 'sequence', 'ligand', 'ccd', 'secondary_structure', 'file', 'path', 'msa', 'include', 'chain', 'include_proximity', 'res_index', 'radius', 'binding_types', 'binding', 'not_binding', 'structure_groups', 'group', 'visibility', 'design', 'loop', 'helix', 'sheet', 'design_insertions', 'insertion', 'num_residues', 'fuse', 'exclude', 'smiles', 'cyclic', 'bonds', 'bond', 'atom1', 'atom2', 'bondtype', 'structure_group', 'constraints', 'total_len', 'min', 'max', 'reset_res_index', 'not_design', 'leaving_atoms', 'atom', 'use_assembly', 'symmetric_group', 'residue_constraints', 'position', 'allowed', 'disallowed']

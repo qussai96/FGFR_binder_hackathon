@@ -1,0 +1,125 @@
+campaign: fgfr2
+strategy_name: strategy1_ligand_site_blocker
+purpose: Design computational binder candidates that target the FGFR2 surface used by FGF1.
+target:
+  pdb_id: 1DJS
+  structure_path: fgfr2_campaign/structures/fgfr2_target_clean.pdb
+  receptor_chain: A
+  ligand_reference_chain: B
+off_target:
+  pdb_id: 1CVS
+  structure_path: fgfr2_campaign/structures/1CVS_offtarget_fgfr1.pdb
+  receptor_chain: C
+binder:
+  min_length: 30
+  max_length: 50
+hotspot_source_json: fgfr2_campaign/configs/fgfr2_fgf1_interface_hotspots.json
+hotspots:
+  - A:160
+  - A:163
+  - A:164
+  - A:165
+  - A:166
+  - A:167
+  - A:168
+  - A:169
+  - A:170
+  - A:171
+  - A:173
+  - A:174
+  - A:175
+  - A:226
+  - A:245
+  - A:246
+  - A:247
+  - A:248
+  - A:249
+  - A:250
+  - A:251
+  - A:252
+  - A:253
+  - A:278
+  - A:279
+  - A:280
+  - A:281
+  - A:282
+  - A:283
+  - A:284
+  - A:285
+  - A:286
+  - A:287
+  - A:288
+  - A:314
+  - A:315
+  - A:316
+  - A:317
+  - A:318
+  - A:319
+  - A:320
+  - A:321
+  - A:325
+  - A:345
+  - A:346
+  - A:347
+  - A:348
+specificity_preferred_hotspots:
+  - A:165
+  - A:173
+  - A:245
+  - A:284
+  - A:314
+specificity_conserved_hotspots_to_avoid:
+  - A:160
+  - A:163
+  - A:164
+  - A:166
+  - A:167
+  - A:168
+  - A:169
+  - A:170
+  - A:171
+  - A:174
+  - A:175
+  - A:226
+  - A:246
+  - A:247
+  - A:248
+  - A:249
+  - A:250
+  - A:251
+  - A:252
+  - A:253
+  - A:278
+  - A:279
+  - A:280
+  - A:281
+  - A:282
+  - A:283
+  - A:285
+  - A:286
+  - A:287
+  - A:288
+  - A:315
+  - A:316
+  - A:317
+  - A:318
+  - A:319
+  - A:320
+  - A:321
+  - A:325
+  - A:345
+  - A:346
+  - A:347
+  - A:348
+scoring_focus:
+  - interface_confidence
+  - min_interaction_pae
+  - ipTM
+  - fgfr1_off_target_avoidance
+warnings:
+  - None
+labels:
+  - computational binder candidates
+  - local A40 workflow
+notes:
+  generated_at_utc: 2026-05-09T15:54:02.437401+00:00

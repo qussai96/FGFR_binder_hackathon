@@ -1,0 +1,344 @@
+{
+  "target": "FGFR2",
+  "off_target": "FGFR1",
+  "target_structure": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/structures/1DJS.pdb",
+  "offtarget_structure": "/home/students/q.abbas/Protein_design_hack/FGFR_binder_hackathon/fgfr2_campaign/structures/1CVS_offtarget_fgfr1.pdb",
+  "target_chain": "A",
+  "offtarget_chain": "C",
+  "preferred_hotspots": [
+    {
+      "target_resseq": 165,
+      "target_aa": "R",
+      "offtarget_resseq": 164,
+      "offtarget_aa": "K",
+      "reason": "non-conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 173,
+      "target_aa": "N",
+      "offtarget_resseq": 172,
+      "offtarget_aa": "K",
+      "reason": "non-conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 245,
+      "target_aa": "H",
+      "offtarget_resseq": 244,
+      "offtarget_aa": "Q",
+      "reason": "non-conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 284,
+      "target_aa": "A",
+      "offtarget_resseq": 283,
+      "offtarget_aa": "P",
+      "reason": "non-conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 314,
+      "target_aa": "A",
+      "offtarget_resseq": 313,
+      "offtarget_aa": "T",
+      "reason": "non-conserved FGFR2/FGFR1 residue"
+    }
+  ],
+  "conserved_hotspots": [
+    {
+      "target_resseq": 160,
+      "target_aa": "E",
+      "offtarget_resseq": 159,
+      "offtarget_aa": "E",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 163,
+      "target_aa": "E",
+      "offtarget_resseq": 162,
+      "offtarget_aa": "E",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 164,
+      "target_aa": "K",
+      "offtarget_resseq": 163,
+      "offtarget_aa": "K",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 166,
+      "target_aa": "L",
+      "offtarget_resseq": 165,
+      "offtarget_aa": "L",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 167,
+      "target_aa": "H",
+      "offtarget_resseq": 166,
+      "offtarget_aa": "H",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 168,
+      "target_aa": "A",
+      "offtarget_resseq": 167,
+      "offtarget_aa": "A",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 169,
+      "target_aa": "V",
+      "offtarget_resseq": 168,
+      "offtarget_aa": "V",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 170,
+      "target_aa": "P",
+      "offtarget_resseq": 169,
+      "offtarget_aa": "P",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 171,
+      "target_aa": "A",
+      "offtarget_resseq": 170,
+      "offtarget_aa": "A",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 174,
+      "target_aa": "T",
+      "offtarget_resseq": 173,
+      "offtarget_aa": "T",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 175,
+      "target_aa": "V",
+      "offtarget_resseq": 174,
+      "offtarget_aa": "V",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 226,
+      "target_aa": "K",
+      "offtarget_resseq": 225,
+      "offtarget_aa": "K",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 246,
+      "target_aa": "L",
+      "offtarget_resseq": 245,
+      "offtarget_aa": "L",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 247,
+      "target_aa": "D",
+      "offtarget_resseq": 246,
+      "offtarget_aa": "D",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 248,
+      "target_aa": "V",
+      "offtarget_resseq": 247,
+      "offtarget_aa": "V",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 249,
+      "target_aa": "V",
+      "offtarget_resseq": 248,
+      "offtarget_aa": "V",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 250,
+      "target_aa": "E",
+      "offtarget_resseq": 249,
+      "offtarget_aa": "E",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 251,
+      "target_aa": "R",
+      "offtarget_resseq": 250,
+      "offtarget_aa": "R",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 252,
+      "target_aa": "S",
+      "offtarget_resseq": 251,
+      "offtarget_aa": "S",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 253,
+      "target_aa": "P",
+      "offtarget_resseq": 252,
+      "offtarget_aa": "P",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 278,
+      "target_aa": "C",
+      "offtarget_resseq": 277,
+      "offtarget_aa": "C",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 279,
+      "target_aa": "K",
+      "offtarget_resseq": 278,
+      "offtarget_aa": "K",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 280,
+      "target_aa": "V",
+      "offtarget_resseq": 279,
+      "offtarget_aa": "V",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 281,
+      "target_aa": "Y",
+      "offtarget_resseq": 280,
+      "offtarget_aa": "Y",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 282,
+      "target_aa": "S",
+      "offtarget_resseq": 281,
+      "offtarget_aa": "S",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 283,
+      "target_aa": "D",
+      "offtarget_resseq": 282,
+      "offtarget_aa": "D",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 285,
+      "target_aa": "Q",
+      "offtarget_resseq": 284,
+      "offtarget_aa": "Q",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 286,
+      "target_aa": "P",
+      "offtarget_resseq": 285,
+      "offtarget_aa": "P",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 287,
+      "target_aa": "H",
+      "offtarget_resseq": 286,
+      "offtarget_aa": "H",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 288,
+      "target_aa": "I",
+      "offtarget_resseq": 287,
+      "offtarget_aa": "I",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 315,
+      "target_aa": "A",
+      "offtarget_resseq": 314,
+      "offtarget_aa": "A",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 316,
+      "target_aa": "G",
+      "offtarget_resseq": 315,
+      "offtarget_aa": "G",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 317,
+      "target_aa": "V",
+      "offtarget_resseq": 316,
+      "offtarget_aa": "V",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 318,
+      "target_aa": "N",
+      "offtarget_resseq": 317,
+      "offtarget_aa": "N",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 319,
+      "target_aa": "T",
+      "offtarget_resseq": 318,
+      "offtarget_aa": "T",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 320,
+      "target_aa": "T",
+      "offtarget_resseq": 319,
+      "offtarget_aa": "T",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 321,
+      "target_aa": "D",
+      "offtarget_resseq": 320,
+      "offtarget_aa": "D",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 325,
+      "target_aa": "E",
+      "offtarget_resseq": 324,
+      "offtarget_aa": "E",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 345,
+      "target_aa": "G",
+      "offtarget_resseq": 344,
+      "offtarget_aa": "G",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 346,
+      "target_aa": "N",
+      "offtarget_resseq": 345,
+      "offtarget_aa": "N",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 347,
+      "target_aa": "S",
+      "offtarget_resseq": 346,
+      "offtarget_aa": "S",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    },
+    {
+      "target_resseq": 348,
+      "target_aa": "I",
+      "offtarget_resseq": 347,
+      "offtarget_aa": "I",
+      "reason": "conserved FGFR2/FGFR1 residue"
+    }
+  ],
+  "unmatched_hotspots": [],
+  "warning": null,
+  "note": "Use preferred hotspots for positive targeting and down-weight conserved hotspots to improve FGFR2 specificity."
+}
