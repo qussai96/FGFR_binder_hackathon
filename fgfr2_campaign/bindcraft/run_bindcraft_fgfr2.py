@@ -219,6 +219,51 @@ target_settings, advanced_settings, filters = load_json_settings(
     target_settings_path, FILTER_SETTINGS_PATH, ADVANCED_SETTINGS_PATH,
 )
 
+# ============================================================================
+# FRONTIER-ONLY OVERRIDE — disable PyRosetta-based filters
+# ============================================================================
+# Rosetta's force field was calibrated on natural protein interfaces.
+# ML-designed binders have unusual sequence statistics that systematically
+# violate Rosetta's training distribution. Adams 2024 + Bennett 2024 show
+# ipSAE alone outperforms Rosetta dG for binder ranking by experimental
+# success. We therefore DISABLE all PyRosetta-based filters and rely on:
+#   (1) AF2 confidence metrics (pLDDT, ipTM, pAE)
+#   (2) ipSAE (Dunbrack 2025)
+#   (3) Δ-ipSAE paralog selectivity gap
+#   (4) Boltz-2 binding affinity (2025; only ML model trained on K_d data)
+# Every scoring decision is made by a 2024-or-newer ML model.
+# ============================================================================
+ROSETTA_METRICS_TO_DISABLE = [
+    "interface_sc",                                  # Rosetta shape complementarity
+    "interface_packstat",                            # Rosetta packing
+    "interface_dG",                                  # Rosetta binding free energy
+    "interface_dG_SASA_ratio",                       # Rosetta-derived
+    "interface_hydrophobicity",                      # Rosetta-derived
+    "interface_hbond_percentage",                    # Rosetta H-bond percentage
+    "interface_delta_unsat_hbonds_percentage",       # Rosetta unsat polars
+    "Binder_Energy_Score",                           # Rosetta total energy
+    "Surface_Hydrophobicity",                        # Rosetta hydrophobicity
+    "ShapeComplementarity",                          # alias
+    "PackStat",                                      # alias
+    "dG",                                            # alias
+    "dSASA",                                         # alias
+    "dG/dSASA",                                      # alias
+    "Interface_Hydrophobicity",                      # alias
+    "n_InterfaceHbonds",                             # uses Rosetta H-bond defn
+    "InterfaceHbondsPercentage",                     # alias
+    "n_InterfaceUnsatHbonds",                        # alias
+    "InterfaceUnsatHbondsPercentage",                # alias
+]
+n_disabled = 0
+for metric in ROSETTA_METRICS_TO_DISABLE:
+    if metric in filters and isinstance(filters[metric], dict):
+        for k in ("threshold", "higher"):
+            if k in filters[metric]:
+                filters[metric][k] = None
+        n_disabled += 1
+print(f"[frontier-only] Disabled {n_disabled} PyRosetta-based filters.")
+print(f"[frontier-only] Scoring uses: ipSAE (Dunbrack 2025) + Boltz-2 affinity (2025) + AF2 confidence.")
+
 # ipSAE-maximizing overrides on advanced_settings:
 advanced_settings["num_recycles_validation"] = 5     # was 3
 advanced_settings["num_seqs"] = 4                     # MPNN seqs per trajectory
@@ -406,6 +451,113 @@ def predict_offtarget_ipsae(binder_seq, design_name, binder_length):
 
 
 # ============================================================================
+# BOLTZ-2 BINDING AFFINITY PREDICTION (frontier — replaces Rosetta dG)
+# ============================================================================
+# Boltz-2 (Wohlwend et al, 2025) is the only publicly available ML model
+# trained directly on experimental K_d / IC50 data. Predicts binding
+# affinity (dG_pred) from a complex structure. Replaces Rosetta's
+# interface_dG which is calibrated on natural interfaces.
+#
+# CLI: `boltz predict <input.yaml> --use_msa_server` (Boltz-1 + Boltz-2 unified)
+# When the input YAML has a `properties.affinity.binder` block, Boltz-2's
+# affinity head runs and outputs a JSON with `affinity_pred_value` (dG kcal/mol).
+# ============================================================================
+
+import subprocess
+import yaml as _yaml
+
+BOLTZ2_AVAILABLE = shutil.which("boltz") is not None
+if BOLTZ2_AVAILABLE:
+    print(f"[frontier-only] Boltz-2 CLI detected — will predict binding affinity post-hoc.")
+else:
+    print(f"[frontier-only] Boltz-2 CLI not found. Install with `pip install boltz`. "
+          f"Pipeline will run without affinity scoring; ipSAE remains primary metric.")
+
+
+def _read_seq_from_pdb(pdb_path, chain_id):
+    """Extract one-letter sequence from a chain in a PDB."""
+    from Bio.PDB import PDBParser
+    one_by_three = {'ALA':'A','ARG':'R','ASN':'N','ASP':'D','CYS':'C','GLN':'Q',
+                    'GLU':'E','GLY':'G','HIS':'H','ILE':'I','LEU':'L','LYS':'K',
+                    'MET':'M','PHE':'F','PRO':'P','SER':'S','THR':'T','TRP':'W',
+                    'TYR':'Y','VAL':'V'}
+    p = PDBParser(QUIET=True)
+    s = p.get_structure("ref", pdb_path)
+    if chain_id not in s[0]:
+        return ""
+    return ''.join(one_by_three[r.get_resname()] for r in s[0][chain_id]
+                    if r.id[0].strip() == "" and r.get_resname() in one_by_three)
+
+
+# Cache target sequences (one extraction per run)
+_TARGET_SEQ_FGFR2 = _read_seq_from_pdb(target_settings["starting_pdb"], target_settings["chains"])
+_TARGET_SEQ_FGFR1 = (_read_seq_from_pdb(_offtarget_target_pdb, OFF_TARGET_CHAIN)
+                     if _offtarget_target_pdb else "")
+
+
+def predict_boltz2_affinity(binder_seq, target_seq, design_name, msa_mode="auto"):
+    """
+    Run Boltz-2 affinity prediction for a given binder against a target.
+    Returns (affinity_kcal_mol, predicted_pae_iptm) or (None, None) on failure.
+
+    Boltz-2 input YAML format (sequences + properties.affinity.binder):
+      sequences:
+        - protein: {id: A, sequence: <target>, msa: auto}
+        - protein: {id: B, sequence: <binder>, msa: empty}
+      properties:
+        - affinity: {binder: B}
+    """
+    if not BOLTZ2_AVAILABLE or not binder_seq or not target_seq:
+        return None, None
+
+    work_dir = os.path.join(target_settings["design_path"], "boltz2_affinity", design_name)
+    os.makedirs(work_dir, exist_ok=True)
+
+    yaml_path = os.path.join(work_dir, "input.yaml")
+    boltz_input = {
+        "sequences": [
+            {"protein": {"id": "A", "sequence": target_seq, "msa": msa_mode}},
+            {"protein": {"id": "B", "sequence": binder_seq, "msa": "empty"}},
+        ],
+        "properties": [
+            {"affinity": {"binder": "B"}},
+        ],
+    }
+    with open(yaml_path, "w") as f:
+        _yaml.safe_dump(boltz_input, f, sort_keys=False)
+
+    out_dir = os.path.join(work_dir, "out")
+    os.makedirs(out_dir, exist_ok=True)
+    cmd = ["boltz", "predict", yaml_path, "--use_msa_server", "--out_dir", out_dir,
+           "--output_format", "pdb"]
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+        if result.returncode != 0:
+            return None, None
+    except (subprocess.TimeoutExpired, Exception):
+        return None, None
+
+    # Parse Boltz-2 affinity output JSON (typical filename: <basename>_affinity_predictions.json)
+    aff_jsons = glob.glob(os.path.join(out_dir, "**", "*affinity*.json"), recursive=True)
+    if not aff_jsons:
+        return None, None
+
+    try:
+        with open(aff_jsons[0]) as f:
+            data = json.load(f)
+    except Exception:
+        return None, None
+
+    aff = (data.get("affinity_pred_value")
+           or data.get("affinity_kcal_mol")
+           or data.get("predicted_affinity"))
+    iptm = data.get("iptm") or data.get("affinity_probability_binary")
+    return (float(aff) if aff is not None else None,
+            float(iptm) if iptm is not None else None)
+
+
+# ============================================================================
 # Main BindCraft pipeline (with ipSAE annotation per design)
 # ============================================================================
 
@@ -579,10 +731,12 @@ while True:
         # === IPSAE OFF-TARGET (FGFR1) ===
         ipsae_off, off_pdb = predict_offtarget_ipsae(ms["seq"], mpnn_design_name, length)
 
-        # Composite ipSAE-led ranking score
+        # Frontier composite ranking — interim (no Boltz-2 yet, added post-loop)
+        # ALL signals here are 2024-or-newer ML metrics. Zero PyRosetta.
         ipsae_target_v = ipsae_target if ipsae_target is not None else 0.0
         ipsae_off_v = ipsae_off if ipsae_off is not None else 0.0
         plddt_norm = float(mpnn_complex_stats.get(1, {}).get("plddt", 0)) / 100.0
+        # Interim composite (without Boltz-2 affinity, replaced post-loop):
         composite_ipsae = (0.50 * ipsae_target_v
                             + 0.30 * max(ipsae_target_v - ipsae_off_v, 0)
                             + 0.20 * plddt_norm)
@@ -595,7 +749,11 @@ while True:
             "ipsae_offtarget_fgfr1": round(ipsae_off_v, 4),
             "ipsae_specificity_gap": round(ipsae_target_v - ipsae_off_v, 4),
             "plddt_complex": round(plddt_norm * 100, 2),
+            "boltz2_affinity_kcal_mol_target": None,    # populated post-loop
+            "boltz2_affinity_kcal_mol_offtarget": None, # populated post-loop
+            "boltz2_affinity_gap_kcal_mol": None,
             "composite_ipsae_score": round(composite_ipsae, 4),
+            "frontier_composite": None,                  # populated post-loop
         })
 
         # === Standard BindCraft scoring (for the existing CSV / filter pipeline) ===
@@ -708,29 +866,101 @@ print(f"\n[done] {trajectory_n - 1} trajectories in {elapsed/60:.1f} min, "
       f"{accepted_designs} accepted designs")
 
 # ============================================================================
-# FINAL ipSAE-led ranking
+# BOLTZ-2 AFFINITY STAGE (frontier — replaces Rosetta dG)
 # ============================================================================
+# Run Boltz-2 on the top-30 ipSAE candidates (cost-control). Predicts
+# binding affinity (kcal/mol) AGAINST FGFR2 and AGAINST FGFR1 (selectivity).
+# Skipped if Boltz-2 CLI is not installed.
 
-print(f"\n[{datetime.now().isoformat(timespec='seconds')}] Final ipSAE ranking…")
+if BOLTZ2_AVAILABLE and ipsae_log:
+    print(f"\n[{datetime.now().isoformat(timespec='seconds')}] "
+          f"Boltz-2 affinity scoring on top-30 ipSAE candidates…")
+    interim_sorted = sorted(ipsae_log, key=lambda r: -r["ipsae_target"])[:30]
+    for i, entry in enumerate(interim_sorted, 1):
+        print(f"  [{i}/{len(interim_sorted)}] {entry['design_name']} ", end="", flush=True)
+        # On-target affinity
+        aff_t, _ = predict_boltz2_affinity(entry["sequence"], _TARGET_SEQ_FGFR2,
+                                              entry["design_name"] + "_R2", msa_mode="auto")
+        # Off-target affinity (FGFR1)
+        aff_o, _ = (predict_boltz2_affinity(entry["sequence"], _TARGET_SEQ_FGFR1,
+                                               entry["design_name"] + "_R1", msa_mode="auto")
+                    if _TARGET_SEQ_FGFR1 else (None, None))
+        entry["boltz2_affinity_kcal_mol_target"] = round(aff_t, 3) if aff_t is not None else None
+        entry["boltz2_affinity_kcal_mol_offtarget"] = round(aff_o, 3) if aff_o is not None else None
+        if aff_t is not None and aff_o is not None:
+            entry["boltz2_affinity_gap_kcal_mol"] = round(aff_o - aff_t, 3)  # off - on; positive = selective
+            print(f"  R2={aff_t:.2f} kcal/mol  R1={aff_o:.2f} kcal/mol  gap={aff_o - aff_t:+.2f}")
+        elif aff_t is not None:
+            print(f"  R2={aff_t:.2f} kcal/mol  (R1 skipped)")
+        else:
+            print(f"  Boltz-2 failed")
+else:
+    print(f"\n[Boltz-2] skipped (CLI unavailable). Ranking falls back to ipSAE-led composite.")
+
+
+# ============================================================================
+# FINAL FRONTIER COMPOSITE — ALL signals from 2024+ ML models, NO PyRosetta
+# ============================================================================
+# Composite formula:
+#   0.40 * ipSAE_target           (Dunbrack 2025 — primary confidence)
+#   0.25 * max(Δ-ipSAE, 0)        (paralog selectivity moat)
+#   0.20 * Boltz-2 affinity norm  (Wohlwend 2025 — only ML K_d predictor)
+#   0.15 * pLDDT_complex / 100    (AlphaFold backbone confidence)
+# Boltz-2 affinity normalization: nM ≈ -8 kcal/mol; cap at -12 kcal/mol = score 1.0.
+# If Boltz-2 missing for a design, the affinity term defaults to 0 (penalty).
+
+def frontier_composite(entry):
+    ipsae_t = entry.get("ipsae_target") or 0.0
+    ipsae_o = entry.get("ipsae_offtarget_fgfr1") or 0.0
+    plddt = (entry.get("plddt_complex") or 0.0) / 100.0
+    aff_t = entry.get("boltz2_affinity_kcal_mol_target")
+    if aff_t is not None:
+        # More negative = stronger binding. Map [0, -12] kcal/mol -> [0, 1].
+        aff_norm = max(0.0, min(1.0, (-aff_t) / 12.0))
+    else:
+        aff_norm = 0.0
+    return round(
+        0.40 * ipsae_t
+        + 0.25 * max(ipsae_t - ipsae_o, 0)
+        + 0.20 * aff_norm
+        + 0.15 * plddt,
+        4,
+    )
+
+
+for entry in ipsae_log:
+    entry["frontier_composite"] = frontier_composite(entry)
+
+print(f"\n[{datetime.now().isoformat(timespec='seconds')}] Final frontier-only ranking…")
 
 ipsae_df = pd.DataFrame(ipsae_log)
 if not ipsae_df.empty:
-    ipsae_df = ipsae_df.sort_values("composite_ipsae_score", ascending=False).reset_index(drop=True)
+    # FRONTIER ranking — composite uses ipSAE + Δ-ipSAE + Boltz-2 affinity + pLDDT
+    ipsae_df = ipsae_df.sort_values("frontier_composite", ascending=False).reset_index(drop=True)
     ipsae_df.insert(0, "rank", ipsae_df.index + 1)
 
-    ranking_csv = os.path.join(target_settings["design_path"], "bindcraft_ipsae_ranking.csv")
+    ranking_csv = os.path.join(target_settings["design_path"], "bindcraft_frontier_ranking.csv")
     ipsae_df.to_csv(ranking_csv, index=False)
     print(f"  Wrote {ranking_csv}")
-    print(f"\n=== TOP 10 by composite ipSAE score ===")
-    print(ipsae_df.head(10).to_string(index=False))
+    print(f"\n=== TOP 10 by frontier composite (ipSAE + Δ-ipSAE + Boltz-2 + pLDDT) ===")
+    cols_to_show = ["rank", "design_name", "ipsae_target", "ipsae_specificity_gap",
+                     "boltz2_affinity_kcal_mol_target", "boltz2_affinity_gap_kcal_mol",
+                     "plddt_complex", "frontier_composite"]
+    show_df = ipsae_df[[c for c in cols_to_show if c in ipsae_df.columns]].head(10)
+    print(show_df.to_string(index=False))
 
-    # Top-N FASTA for direct submission
+    # Top-N FASTA for direct submission with frontier metrics in headers
     fasta_path = os.path.join(target_settings["design_path"], f"top_{TOP_N_TO_SUBMIT}_for_submission.fasta")
     with open(fasta_path, "w") as f:
         for _, row in ipsae_df.head(TOP_N_TO_SUBMIT).iterrows():
+            aff_t = row.get("boltz2_affinity_kcal_mol_target")
+            aff_o = row.get("boltz2_affinity_kcal_mol_offtarget")
+            aff_str = (f" Boltz2_R2={aff_t} Boltz2_R1={aff_o} Boltz2_gap={row.get('boltz2_affinity_gap_kcal_mol')}"
+                        if aff_t is not None else "")
             f.write(f">{row['design_name']} ipSAE_R2={row['ipsae_target']} "
                      f"ipSAE_R1={row['ipsae_offtarget_fgfr1']} "
-                     f"composite={row['composite_ipsae_score']}\n")
+                     f"Δ-ipSAE={row['ipsae_specificity_gap']}{aff_str} "
+                     f"frontier={row['frontier_composite']}\n")
             f.write(f"{row['sequence']}\n")
     print(f"\n  Wrote {fasta_path}")
 
