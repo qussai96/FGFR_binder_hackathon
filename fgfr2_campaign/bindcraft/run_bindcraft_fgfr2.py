@@ -98,12 +98,17 @@ INPUT_PDB = os.environ.get(
     "FGFR2_1DJS_chainA_clean.pdb",
 )
 
-# v6 hotspots: D283 + R251 + Y281 + N346 + V317 + N173
-# (4 affinity from mCSM-PPI2 top-5 + 1 CRAC king + 1 chemistry-flip selectivity)
+# v7 hotspots: D283 + Y281 + N346 + V317
+# Optimized for BOTH ipSAE (all on rigid β-strands of D3, compact 14 Å cluster)
+# AND FGF1 displacement (mCSM rank 1+5+3 = -4.17 kcal/mol stolen affinity)
+# AND paralog selectivity (Y281 +45 Å² CRAC + V317 +127 Å² CRAC king).
+# Dropped from v6: R251 (loop, hurts ipSAE; binder will engage incidentally
+# since R251 is adjacent to D283), N173 (loop, hurts ipSAE; selectivity is
+# already covered by Y281+V317 CRAC structural asymmetry).
 # Full evidence and rationale in fgfr2_campaign/bindcraft/hotspots.json
 HOTSPOTS = os.environ.get(
     "FGFR2_HOTSPOTS",
-    "A283,A251,A281,A346,A317,A173",
+    "A283,A281,A346,A317",
 )
 
 # ============================================================================
@@ -190,6 +195,35 @@ print(f"  Off-target:   {OFF_TARGET_PDB}")
 print(f"  Output:       {DESIGN_PATH}")
 
 # ============================================================================
+# PRE-FLIGHT VALIDATION — verify hotspot residues exist in the input PDB
+# ============================================================================
+def _validate_hotspots_exist(pdb_path, hotspots_str, receptor_chain):
+    """Parse hotspots like 'A283,A281' and confirm each residue exists in the PDB."""
+    from Bio.PDB import PDBParser
+    if not Path(pdb_path).exists():
+        raise FileNotFoundError(f"Input PDB not found: {pdb_path}")
+    parser = PDBParser(QUIET=True)
+    s = parser.get_structure("ref", pdb_path)
+    if receptor_chain not in s[0]:
+        raise ValueError(f"Receptor chain '{receptor_chain}' not found in {pdb_path}")
+    chain_residues = {r.id[1]: r.get_resname() for r in s[0][receptor_chain]
+                       if r.id[0].strip() == ""}
+    missing = []; valid = []
+    for token in (t.strip() for t in hotspots_str.split(",") if t.strip()):
+        if not token[1:].isdigit():
+            missing.append(f"{token} (malformed)"); continue
+        rn = int(token[1:])
+        if rn not in chain_residues:
+            missing.append(f"{token} (residue {rn} not in chain {receptor_chain})")
+        else:
+            valid.append(f"{token}={chain_residues[rn]}")
+    print(f"  Validated hotspots: {valid}")
+    if missing:
+        raise ValueError(f"Hotspots not found in input PDB: {missing}")
+
+_validate_hotspots_exist(INPUT_PDB, HOTSPOTS, RECEPTOR_CHAIN)
+
+# ============================================================================
 # Import BindCraft (must be on PYTHONPATH; or adjust BINDCRAFT_FOLDER above)
 # ============================================================================
 
@@ -268,16 +302,23 @@ print(f"[frontier-only] Scoring uses: ipSAE (Dunbrack 2025) + Boltz-2 affinity (
 advanced_settings["num_recycles_validation"] = 5     # was 3
 advanced_settings["num_seqs"] = 4                     # MPNN seqs per trajectory
 advanced_settings["max_mpnn_sequences"] = 2           # accepted per trajectory
-advanced_settings["omit_AAs"] = "C,M"                  # avoid disulfide+oxidation issues
+advanced_settings["omit_AAs"] = "C"                    # only Cys — Met is fine and aids fold
 advanced_settings["force_reject_AA"] = True
 
-# Helicity bias 0.4-0.6 (α-helix-rich = high pLDDT = high ipSAE)
+# Helicity bias 0.7 — pushes toward 3-helix bundles, the topology AF2 predicts
+# with the highest confidence (and the topology of every published successful
+# de novo FGFR binder). Higher pLDDT → lower PAE → higher ipSAE.
 if "helicity" not in advanced_settings or advanced_settings.get("helicity") is None:
-    advanced_settings["helicity"] = 0.5
+    advanced_settings["helicity"] = 0.7
 
 # Beta-rich trajectory upgrade (more recycles)
 advanced_settings["optimise_beta"] = True
 advanced_settings["optimise_beta_recycles_valid"] = 7
+
+# Early termination if acceptance rate stays low — saves GPU time
+advanced_settings["enable_rejection_check"] = True
+advanced_settings["start_monitoring"] = 50      # check after 50 trajectories
+advanced_settings["acceptance_rate"] = 0.02     # require ≥2% acceptance to continue
 
 advanced_settings = perform_advanced_settings_check(advanced_settings, BINDCRAFT_FOLDER)
 
@@ -421,8 +462,29 @@ def get_offtarget_model(binder_length):
     return _offtarget_complex_model
 
 
+def _detect_target_and_binder_chains_in_pdb(pdb_path):
+    """Auto-detect target/binder chain IDs in a saved AF2 prediction PDB.
+    AF2 may rename chains; can't trust the input chain ID. Heuristic: the
+    chain with more residues is the target; the other is the binder.
+    """
+    from Bio.PDB import PDBParser
+    parser = PDBParser(QUIET=True)
+    s = parser.get_structure("af", pdb_path)
+    chain_counts = []
+    for c in s[0]:
+        n = sum(1 for r in c if r.id[0].strip() == "")
+        if n > 0:
+            chain_counts.append((c.id, n))
+    if len(chain_counts) < 2:
+        return None, None
+    chain_counts.sort(key=lambda x: -x[1])
+    return chain_counts[0][0], chain_counts[1][0]   # (target=larger, binder=smaller)
+
+
 def predict_offtarget_ipsae(binder_seq, design_name, binder_length):
-    """Refold binder against FGFR1; return (ipSAE_off, output_pdb_path)."""
+    """Refold binder against FGFR1; return (ipSAE_off, output_pdb_path).
+    Auto-detects chain IDs in the saved PDB to handle ColabDesign chain
+    renaming."""
     if _offtarget_target_pdb is None:
         return None, None
     model = get_offtarget_model(binder_length)
@@ -433,17 +495,24 @@ def predict_offtarget_ipsae(binder_seq, design_name, binder_length):
         out_pdb = os.path.join(OFF_TARGET_DIR, f"{design_name}_offtarget.pdb")
         model.save_pdb(out_pdb)
         log = model.aux["log"] if "log" in model.aux else {}
-        # Get target chain length from the off-target PDB
+
+        # Auto-detect chains in the saved PDB (target = larger, binder = smaller)
+        target_chain_id, binder_chain_id = _detect_target_and_binder_chains_in_pdb(out_pdb)
+        if target_chain_id is None or binder_chain_id is None:
+            print(f"  [offtarget] could not detect chains in {out_pdb}")
+            return None, out_pdb
+
+        # Count target residues for PAE indexing
         from Bio.PDB import PDBParser
-        parser = PDBParser(QUIET=True)
-        s = parser.get_structure("off", _offtarget_target_pdb)
-        chain = s[0][OFF_TARGET_CHAIN]
-        target_n = len([r for r in chain if r.id[0].strip() == ""])
+        s = PDBParser(QUIET=True).get_structure("off", out_pdb)
+        target_n = sum(1 for r in s[0][target_chain_id] if r.id[0].strip() == "")
+
         pae = extract_pae_from_af_output(log, target_n, binder_length)
         if pae is None:
             return None, out_pdb
         ipsae_off = compute_ipsae(pae, target_n, binder_length, out_pdb,
-                                    target_chain=OFF_TARGET_CHAIN, binder_chain="B")
+                                    target_chain=target_chain_id,
+                                    binder_chain=binder_chain_id)
         return ipsae_off, out_pdb
     except Exception as e:
         print(f"  [offtarget] failed for {design_name}: {e}")
@@ -915,8 +984,9 @@ def frontier_composite(entry):
     plddt = (entry.get("plddt_complex") or 0.0) / 100.0
     aff_t = entry.get("boltz2_affinity_kcal_mol_target")
     if aff_t is not None:
-        # More negative = stronger binding. Map [0, -12] kcal/mol -> [0, 1].
-        aff_norm = max(0.0, min(1.0, (-aff_t) / 12.0))
+        # More negative = stronger binding. Map [0, -16] kcal/mol -> [0, 1].
+        # 16 kcal/mol corresponds to sub-pM K_d (the strongest meaningful range).
+        aff_norm = max(0.0, min(1.0, (-aff_t) / 16.0))
     else:
         aff_norm = 0.0
     return round(
