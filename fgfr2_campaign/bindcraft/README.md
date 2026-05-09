@@ -4,25 +4,51 @@ Drop into: `fgfr2_campaign/bindcraft/` of [qussai96/FGFR_binder_hackathon](https
 
 Designs 50-residue de novo binders that **displace FGF1 from FGFR2** with **maximum ipSAE confidence** and **paralog selectivity vs FGFR1**.
 
-## Two user inputs only
+## Required inputs (both files already in this repo)
 
-Open `run_bindcraft_fgfr2.py` and edit the two lines under `USER INPUTS`:
+The script needs two files. **Both are already tracked in the repo at the root** — no upload required:
 
-```python
-INPUT_PDB = "fgfr2_campaign/structures/FGFR2_1DJS_chainA_clean.pdb"
-HOTSPOTS  = "A283,A251,A281,A346,A317,A173"
+| Role | File (repo root) | Description |
+|---|---|---|
+| Target | `FGFR2_1DJS_chainA_clean.pdb` | FGFR2 D2-D3 ectodomain, chain A only (FGF1 stripped). Residues 147-362, 1595 atoms. |
+| Off-target | `FGFR1_1CVS_chainC_clean.pdb` | FGFR1 D2-D3, chain C only. Used for paralog selectivity gap. |
+
+**Hotspots** (also defined in `hotspots.json` in this folder for full provenance):
+
+```
+A283, A251, A281, A346, A317, A173
 ```
 
-Or pass via environment variables:
+| Res | Role | mCSM ΔΔG (kcal/mol) | Δ-BSA (FGFR2 - FGFR1, Å²) |
+|---|---|---|---|
+| **D283** | Affinity king (salt-bridge to FGF1 K12) | −1.74 | 0 (conserved) |
+| **R251** | Affinity king (H-bonds FGF1 H93+N95) | −1.56 | 0 (conserved) |
+| **Y281** | **DUAL** affinity + CRAC selectivity | −1.16 | **+45** |
+| **N346** | Affinity (D3 βF/βG) | −1.27 | small |
+| **V317** | **CRAC king** (paralog selectivity) | −0.41 | **+127** |
+| **N173** | Chemistry-flip vs FGFR1 K172 | −0.30 | **+11** |
+
+Full evidence per hotspot, plus the three rejected ones (R165, A284, H245), in `hotspots.json`.
+
+## Running it
+
+The script defaults already point to the correct files in the repo. From the repo root:
 
 ```bash
-export FGFR2_INPUT_PDB=fgfr2_campaign/structures/FGFR2_1DJS_chainA_clean.pdb
-export FGFR2_HOTSPOTS="A283,A251,A281,A346,A317,A173"
-export FGFR1_OFFTARGET_PDB=fgfr2_campaign/structures/FGFR1_1CVS_chainC_clean.pdb
+cd /path/to/FGFR_binder_hackathon
 python fgfr2_campaign/bindcraft/run_bindcraft_fgfr2.py
 ```
 
-Everything else is hardcoded for ipSAE maximization.
+Or via env vars (preferred for cluster runs):
+
+```bash
+export FGFR2_INPUT_PDB=FGFR2_1DJS_chainA_clean.pdb
+export FGFR2_HOTSPOTS="A283,A251,A281,A346,A317,A173"
+export FGFR1_OFFTARGET_PDB=FGFR1_1CVS_chainC_clean.pdb
+python fgfr2_campaign/bindcraft/run_bindcraft_fgfr2.py
+```
+
+Everything else (HardTarget protocol, length 50, num_recycles=5, helicity=0.5, etc.) is hardcoded for ipSAE maximization.
 
 ## Why each hardcoded setting maximizes ipSAE
 

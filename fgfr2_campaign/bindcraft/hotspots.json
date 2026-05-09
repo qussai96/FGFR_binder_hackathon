@@ -1,0 +1,103 @@
+{
+  "_comment": "v6 hotspots for FGFR2 selective binder design — derived from paired-PISA + mCSM-PPI2 + multi-paralog MSA",
+  "campaign": "FGFR2 selective binder, ipSAE-maximizing track",
+  "target_structure": "FGFR2_1DJS_chainA_clean.pdb",
+  "off_target_structure": "FGFR1_1CVS_chainC_clean.pdb",
+  "hotspot_string_for_bindcraft": "A283,A251,A281,A346,A317,A173",
+  "hotspots": [
+    {
+      "chain": "A",
+      "resnum": 283,
+      "residue": "ASP",
+      "role": "AFFINITY_KING",
+      "rank": 1,
+      "mcsm_ppi2_ddg_kcal_mol": -1.74,
+      "interface_bsa_A2": 45.2,
+      "rationale": "Largest single-residue energetic contributor to FGF1 binding. Carboxylate forms salt-bridge anchor with FGF1 K12 backbone (PISA-validated). Paralog-conserved (FGFR1 D282 also engages, BSA 24.9 — symmetric, no selectivity). Drop this and you're not competing with FGF1's strongest contact."
+    },
+    {
+      "chain": "A",
+      "resnum": 251,
+      "residue": "ARG",
+      "role": "AFFINITY_KING",
+      "rank": 2,
+      "mcsm_ppi2_ddg_kcal_mol": -1.56,
+      "interface_bsa_A2": 130.0,
+      "rationale": "Largest interface BSA in entire pocket. Guanidinium two-arm grip: H-bonds FGF1 H93 backbone AND N95 sidechain simultaneously (PISA-validated, double anchor). Paralog-conserved (FGFR1 R250 BSA 122.8). Non-negotiable for affinity."
+    },
+    {
+      "chain": "A",
+      "resnum": 281,
+      "residue": "TYR",
+      "role": "DUAL_AFFINITY_AND_CRAC_SELECTIVITY",
+      "rank": 3,
+      "mcsm_ppi2_ddg_kcal_mol": -1.16,
+      "interface_bsa_A2_fgfr2": 48.7,
+      "interface_bsa_A2_fgfr1_equiv": 3.3,
+      "delta_bsa_A2": 45.4,
+      "rationale": "THE BEST RESIDUE in our analysis. mCSM top-5 affinity AND CRAC asymmetry (paired-PISA): FGFR2 buries 49 A^2 of FGF1 surface, FGFR1's Y280 buries only 3 A^2. Same residue identity, different docking geometry — the binder inherits the asymmetry. Dual purpose in one slot."
+    },
+    {
+      "chain": "A",
+      "resnum": 346,
+      "residue": "ASN",
+      "role": "AFFINITY",
+      "rank": 4,
+      "mcsm_ppi2_ddg_kcal_mol": -1.27,
+      "interface_bsa_A2": 19.9,
+      "rationale": "mCSM rank 3 affinity contributor. D3 βF/βG strand region (rigid secondary structure → high pAE confidence in AlphaFold → high ipSAE)."
+    },
+    {
+      "chain": "A",
+      "resnum": 317,
+      "residue": "VAL",
+      "role": "CRAC_SELECTIVITY_KING",
+      "rank": 5,
+      "mcsm_ppi2_ddg_kcal_mol": -0.41,
+      "interface_bsa_A2_fgfr2": 126.9,
+      "interface_bsa_A2_fgfr1_equiv": 0.0,
+      "delta_bsa_A2": 126.9,
+      "rationale": "STRONGEST single-residue selectivity signal in entire interface. PISA: V317 buries 127 A^2 of FGF1 in FGFR2; FGFR1's V316 buries ZERO. FGFR1 has nothing at this position to confuse a binder. Modest mCSM (-0.41) is not the point — V317's value is geometric paralog discrimination, not affinity. Drop this and selectivity collapses to N173 alone."
+    },
+    {
+      "chain": "A",
+      "resnum": 173,
+      "residue": "ASN",
+      "role": "CHEMISTRY_FLIP_SELECTIVITY",
+      "rank": 6,
+      "mcsm_ppi2_ddg_kcal_mol": -0.30,
+      "interface_bsa_A2_fgfr2": 11.8,
+      "interface_bsa_A2_fgfr1_equiv": 1.0,
+      "delta_bsa_A2": 10.8,
+      "rationale": "Only chemistry-based selectivity hotspot that survived paired-PISA. FGFR2 has Asn (neutral H-bond donor/acceptor); FGFR1 has Lys (positively charged) at the equivalent position 172. A binder side chain that H-bonds N173's amide will electrostatically clash with FGFR1's K172. Compounded selectivity with V317."
+    }
+  ],
+  "rejected_hotspots": [
+    {
+      "resnum": 165,
+      "reason": "Paired-PISA refuted mCSM signal. FGFR1 K164 has BSA 7.5 vs FGFR2 R165 at 4.5 — FGFR1 actually engages MORE. Targeting R165 would not differentiate paralogs."
+    },
+    {
+      "resnum": 284,
+      "reason": "Actively harmful. FGFR1 P283 has BSA 36.3 vs FGFR2 A284 at 21.8. A binder targeting A284 would prefer FGFR1. Eliminate."
+    },
+    {
+      "resnum": 245,
+      "reason": "Not in either paralog's interface (BSA = 0 in both 1DJS and 1EVT). Geometric ghost. Was 6.7 A from FGF1 — rim, not contact."
+    }
+  ],
+  "evidence_sources": [
+    "PISA (per-residue BSA on 1DJS chain A vs 1EVT chain C, paired comparison)",
+    "mCSM-PPI2 (empirical alanine scan ΔΔG, trained on SKEMPI mutation database)",
+    "Multi-paralog MSA (FGFR1/2/3/4 from UniProt, BLOSUM62 + star alignment)",
+    "PeSTo (independent ML binding-site prediction on FGFR2 alone)",
+    "ESM-2 (per-position evolutionary distinctiveness)",
+    "Plotnikov 2000 Cell — original 1DJS paper, validates affinity-vs-selectivity decoupling",
+    "Cao 2022 Nature — only published de novo FGFR binder (mb7); targets D3 backside, NOT FGF1 site (different problem)"
+  ],
+  "ipsae_maximization_notes": {
+    "why_six_not_more": "IPD documentation states 3-6 hotspots is the empirical sweet spot. More hotspots dilute the interface signal and reduce ipSAE because the TM-score-like normalization sums over interface residues — adding moderate-confidence residues lowers the average.",
+    "why_atom_level_in_RFD3": "RFD3 supports atom-level select_hotspots; specifying carboxylate oxygens (D283: OD1,OD2) vs default CA increases AlphaFold's confidence in the H-bond geometry, which directly increases ipSAE.",
+    "why_HardTarget_in_BindCraft": "HardTarget prediction protocol uses initial-guess complex prediction. Per IPD this increases complex confidence ~10-15% over default. Single biggest BindCraft lever for ipSAE."
+  }
+}

@@ -93,11 +93,14 @@ from datetime import datetime
 
 INPUT_PDB = os.environ.get(
     "FGFR2_INPUT_PDB",
-    "fgfr2_campaign/structures/FGFR2_1DJS_chainA_clean.pdb",
+    # Repo-root location — chain A only, FGF1 stripped, ready for BindCraft.
+    # File contains: residues 147-362, 1595 atoms, single chain A.
+    "FGFR2_1DJS_chainA_clean.pdb",
 )
 
 # v6 hotspots: D283 + R251 + Y281 + N346 + V317 + N173
 # (4 affinity from mCSM-PPI2 top-5 + 1 CRAC king + 1 chemistry-flip selectivity)
+# Full evidence and rationale in fgfr2_campaign/bindcraft/hotspots.json
 HOTSPOTS = os.environ.get(
     "FGFR2_HOTSPOTS",
     "A283,A251,A281,A346,A317,A173",
@@ -119,9 +122,10 @@ BINDCRAFT_FOLDER = os.environ.get(
 )
 
 # Off-target (FGFR1) for paralog selectivity check
+# Repo-root location — chain C only (FGFR1 D2-D3), FGF2 stripped.
 OFF_TARGET_PDB = os.environ.get(
     "FGFR1_OFFTARGET_PDB",
-    "fgfr2_campaign/structures/FGFR1_1CVS_chainC_clean.pdb",
+    "FGFR1_1CVS_chainC_clean.pdb",
 )
 OFF_TARGET_CHAIN = "C"
 
